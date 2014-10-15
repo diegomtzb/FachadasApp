@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/direccionlst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.61"
+        android:text="FachadasAPP"
+        android:textSize="48sp" />
+
+    <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listaFachadas"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="0.39" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.3"
+            android:onClick="login"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/Afac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.48"
+            android:onClick="addfachada"
+            android:text="Add Fachada" />
+
+    </LinearLayout>
+
+</LinearLayout>

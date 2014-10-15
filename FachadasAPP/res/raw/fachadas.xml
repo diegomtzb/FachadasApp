@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<puntos>
+    
+    <punto>
+        <Direccion>Blas de Lezo</Direccion>
+        <Autor>Oscar Pulido</Autor>
+    </punto>
+    
+    <punto>
+        <Direccion>Manga</Direccion>
+        <Autor>Diego Martinez</Autor>
+    </punto>
+    
+    <punto>
+        <Direccion>El Socorro</Direccion>
+        <Autor>Pedro Alvear</Autor>
+    </punto>
+    
+</puntos>
