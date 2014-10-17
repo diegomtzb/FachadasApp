@@ -1,0 +1,3 @@
+Descargar el proyecto de Github
+Importarlo en Eclipse
+Compilar y ejecutarlo en el celular o en un emulador Android
