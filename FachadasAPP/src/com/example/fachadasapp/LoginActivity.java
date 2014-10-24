@@ -18,4 +18,9 @@ public class LoginActivity extends Activity {
 		Intent intent = new Intent(this, Register.class);
 		startActivity(intent);
 	}
+	
+	public void conectar(View v){
+		Intent intent = new Intent(this, Register.class);
+		startActivity(intent);
+	}
 }
