@@ -5,5 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_add_fachada">AddFachada</string>
     <string name="title_activity_login">Login</string>
+    <string name="title_activity_camara">CamaraActivity</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

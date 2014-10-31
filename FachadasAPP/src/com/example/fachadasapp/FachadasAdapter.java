@@ -24,15 +24,15 @@ public class FachadasAdapter extends BaseAdapter{
 		View vi = convertView;
 		if(convertView == null){
 			LayoutInflater inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			vi = inflater.inflate(R.layout.fachada_item, null);
+			vi = inflater.inflate(R.layout.fachadaitem, null);
 		}
 		
 		Fachadas fachada = fachadas.get(position);
 		
-		TextView descripcion = (TextView) vi.findViewById(R.id.direccionlst);
+		TextView descripcion = (TextView) vi.findViewById(R.id.direccionitem);
 		descripcion.setText(fachada.getDireccion());
 		
-		TextView autor = (TextView) vi.findViewById(R.id.autorlst);
+		TextView autor = (TextView) vi.findViewById(R.id.autoritem);
 		autor.setText(fachada.getAutor());
 		
 		return vi;

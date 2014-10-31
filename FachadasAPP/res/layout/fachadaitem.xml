@@ -5,17 +5,23 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/direccionlst"
+        android:id="@+id/direccionitem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Direccion"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/autorlst"
+        android:id="@+id/autoritem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Autor"
-        android:textSize="15sp" />
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
 
 </LinearLayout>

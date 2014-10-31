@@ -6,17 +6,12 @@
     android:orientation="vertical"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <SurfaceView
-        android:id="@+id/surfaceView1"
-        android:layout_width="match_parent"
-        android:layout_height="300dp" />
-
     <EditText
-        android:id="@+id/direccion"
+        android:id="@+id/addDescripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Direccion" >
+        android:hint="Descripcion" >
 
         <requestFocus />
     </EditText>
@@ -36,15 +31,15 @@
             android:id="@+id/publicar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick=""
+            android:onClick="Publicar"
             android:text="Publicar" />
 
         <Button
             android:id="@+id/tomarfoto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="start_camera"
-            android:text="Iniciar" />
+            android:onClick="Cancelar"
+            android:text="Cancelar" />
     </LinearLayout>
 
 </LinearLayout>

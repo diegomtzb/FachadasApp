@@ -71,8 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:layout_weight="70"
-            android:onClick="registrar"
+            android:layout_weight="0.5"
             android:text="Registrarse" />
 
         <Button
@@ -80,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:layout_weight="70"
+            android:layout_weight="0.5"
             android:text="Cancelar" />
     </LinearLayout>
 
