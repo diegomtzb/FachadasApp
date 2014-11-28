@@ -49,20 +49,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Descripcion" />
+        android:hint="Descripcion"
+        android:text="Descripcion" />
 
     <EditText
         android:id="@+id/autorFachada"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Autor" />
+        android:hint="Autor"
+        android:text="Autor" />
 
     <Button
-        android:id="@+id/publish"
+        android:id="@+id/publicarFachada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Publish"
-        android:text="Publish" />
+        android:onClick="publicar"
+        android:text="Publicar" />
 
 </LinearLayout>

@@ -45,15 +45,12 @@ public class Conexion {
 		return aux;
 	}
 	
-	public String ConexionPost (String url, long id, String descripcion, String autor){
+	public String ConexionPost (String url, String descripcion, String autor){
 		String respuesta = "";
 		try {
 			HttpPost httpPost = new HttpPost(url);
 			HttpClient httpClient = new DefaultHttpClient();
 			List<NameValuePair> pairs = new ArrayList<NameValuePair>();
-			
-			String idString = String.valueOf(id);
-			pairs.add(new BasicNameValuePair("_id", idString));
 			pairs.add(new BasicNameValuePair("descripcion", descripcion));
 			pairs.add(new BasicNameValuePair("autor", autor));
 			httpPost.setEntity(new UrlEncodedFormEntity(pairs));

@@ -17,7 +17,7 @@ public void login(View v){
 }
 
 public void addfachada(View v){
-	Intent intent = new Intent(this, AddFachada.class);
+	Intent intent = new Intent(this, CamaraActivity.class);
 	startActivity(intent);
 }
 
